@@ -3722,7 +3722,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-x: 100;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
@@ -3747,7 +3747,7 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  padding: 100(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -3946,7 +3946,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1000) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -10915,6 +10915,7 @@ p {
   #mainNav .navbar-brand {
     font-size: 1.5em;
     transition: font-size 0.3s ease-in-out;
+    
   }
   #mainNav .navbar-brand img {
     height: 2rem;
@@ -10969,7 +10970,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
+    padding-top: 1rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
