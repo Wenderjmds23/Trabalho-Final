@@ -3606,7 +3606,7 @@ textarea.form-control-lg {
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
-  --bs-nav-link-disabled-color: #6c757d;
+  --bs-nav-link-disabled-color: #0a7cdf;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -3816,7 +3816,7 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: var(--bs-navbar-color);
+  color: black(--bs-navbar-color);
   background-color: transparent;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
@@ -10874,7 +10874,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color:#b9c1da1;
+  background-color:grey;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10884,11 +10884,12 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: ##020400;
+  color: purple;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
+  transition:6s;
 }
 #mainNav .navbar-brand img {
   height: 1.5rem;
